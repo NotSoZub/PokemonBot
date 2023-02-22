@@ -25,7 +25,7 @@ client.on("ready", async () => {
       }
     }
   }
-  readCommands('commands') /*
+  readCommands('commands') */
 })
 
 client.login(process.env.token)
