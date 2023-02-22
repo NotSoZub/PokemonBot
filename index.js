@@ -10,7 +10,7 @@ const client = new Discord.Client({
   intents: ["GUILDS", "GUILD_MESSAGES"]
 })
 client.on("ready", async () => {
-  const baseFile = 'command-base.js'
+  /* const baseFile = 'command-base.js'
   const commandBase = require(`./commands/${baseFile}`)
 
   const readCommands = (dir) => {
@@ -25,7 +25,7 @@ client.on("ready", async () => {
       }
     }
   }
-  readCommands('commands')
+  readCommands('commands') /*
 })
 
 client.login(process.env.token)
